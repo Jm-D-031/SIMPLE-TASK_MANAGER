@@ -1,0 +1,68 @@
+.App {
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #858585;
+  color: #000000;
+  padding: 1rem;
+}
+
+.task-manager {
+  width: 100%;
+  max-width: 500px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+  padding: 2rem;
+}
+
+.task-manager h1 {
+  margin: 0 0 1.5rem;
+  font-size: 1.75rem;
+  text-align: center;
+}
+
+.task-form {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 0.75rem;
+  margin-bottom: 1.5rem;
+}
+
+.task-form input {
+  padding: 0.75rem 1rem;
+  border: 1px solid #dcdfe6;
+  border-radius: 999px;
+  font-size: 1rem;
+}
+
+.task-form button {
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 999px;
+  background: #4f46e5;
+  color: #ffffff;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.task-form button:hover {
+  background: #05040b;
+  color:#858585;
+}
+
+.task-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.task-list li {
+  padding: 0.85rem 1rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 10px;
+  margin-bottom: 0.75rem;
+  background: #82b4e7;
+}
